@@ -1,0 +1,78 @@
+label {
+  display: flex;
+  justify-content: start;
+  font-size: 18px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  padding: 9px;
+  line-height: 1.7em;
+  box-shadow: 0 2px 10px 0 #cac9c9;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  border-left: 20px solid #ff5f00;
+  border-right: 20px solid #ff5f00;
+  border-radius: 5px 55px 5px 55px;
+  }
+
+
+.btn {
+  border-radius: 3px;
+  background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 10px;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
